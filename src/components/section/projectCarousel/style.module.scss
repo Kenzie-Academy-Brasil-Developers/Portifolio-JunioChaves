@@ -1,0 +1,13 @@
+.carrossel {
+    width: 50vw;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    
+    @media screen and (max-width: 768px) {}
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}

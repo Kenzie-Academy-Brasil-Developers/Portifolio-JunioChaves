@@ -1,0 +1,28 @@
+.bannerSection{
+    display: flex;
+    justify-content: center;
+    gap: 3.125rem;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    width: 50vw;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+    height: 17.3125rem;
+    border-radius: 0.75rem;
+    border: 0.0625rem;
+}
+
+.btn{
+    border-radius: 0.75rem;
+    border: 1px solid #000;
+    background: var(--colo-purple);
+    margin-top: 2.5rem;
+    width: 8.125rem;
+    height: 2.4375rem;
+}

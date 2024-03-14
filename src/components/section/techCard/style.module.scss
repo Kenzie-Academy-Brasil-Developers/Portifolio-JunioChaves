@@ -1,0 +1,13 @@
+.techCard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+}
+
+.image{
+    width: 2.1875rem;
+    height: 2.1875rem;
+    flex-shrink: 0;
+}

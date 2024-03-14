@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1rem;
+    width: 50vw;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12.3125rem;
+    margin-top: 1.0625rem;
+}
+
+.contato{
+    border-radius: 0.75rem;
+    background: var(--purple, #6880FF); 
+    padding: 10px 15px;
+}
+
+.menu{
+    display: flex;
+    gap: 1rem;
+    width: 256px;
+    height: 17px;
+
+}

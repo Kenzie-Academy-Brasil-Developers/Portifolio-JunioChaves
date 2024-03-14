@@ -1,0 +1,86 @@
+@mixin iconStyle {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.icon {
+    @include iconStyle;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel {
+        height: 400px;
+    }
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem;
+    width: 27.4375rem;
+    height: 11.4375rem;
+    border-radius: 1.5625rem;
+    border: 0.0625rem solid white;
+
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+    gap: 1.25rem;
+    
+}
+
+.image{
+    display: flex;
+    width: 2.3125rem;
+    height: 2.375rem;
+}
+
+.button{
+    margin-top: 1.5625rem;
+    color: #6880ff;
+    
+}
+
+.card {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.3rem;
+    width: 21rem;
+    height: 18rem;
+    margin-left: 1rem;
+    background: var(--purple, #6880FF);
+
+
+    .image {
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .description {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .icons {
+        margin-top: 10px;
+
+        a {
+            color: #333;
+
+            &:hover {
+                color: #007bff;
+            }
+        }
+
+    }
+}
